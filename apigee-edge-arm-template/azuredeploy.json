@@ -154,7 +154,7 @@
 		}
 	},
 	"variables": {
-		"templateBaseUrl": "[uri(deployment().properties.template.uri, 'templates/')]",
+		"templateBaseUrl": "https://raw.githubusercontent.com/apickelsimer/microsoft/master/apigee-edge-arm-template/templates/",
 		"tshirtSizeXSmall": {
 			"sharedTemplateUrl": "[concat(variables('templateBaseUrl'), 'shared-resources.json')]",
 			"datastoreInstancesTemplateUrl": "[concat(variables('templateBaseUrl'), 'empty-resources.json')]",
